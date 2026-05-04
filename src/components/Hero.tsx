@@ -4,7 +4,7 @@ import { ArrowDownToLine, Github, Linkedin, Mail } from "lucide-react";
 import { PORTFOLIO_DATA } from "@/src/constants";
 import { usePortfolio } from "@/src/context/PortfolioContext";
 import { cn } from "@/lib/utils";
-
+import heroImg from "./images/hero.webp";
 export default function Hero() {
   const { language } = usePortfolio();
   const t = PORTFOLIO_DATA[language];
@@ -82,12 +82,11 @@ export default function Hero() {
               {/* Circular frame with border */}
               <div className="absolute inset-0 rounded-full border-4 border-vibrant-green/30 animate-pulse" />
               <div className="absolute inset-3 rounded-full overflow-hidden border-2 border-vibrant-pink/50">
-                <img 
-                  src="/src/images/hero.webp" 
-                  alt={t.name}
-                  className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
-                />
+               <img 
+  src={heroImg}
+  alt={t.name}
+  className="w-full h-full object-cover"
+/>
               </div>
               {/* Decorative elements around the circle */}
               <div className="absolute -top-4 -right-4 w-12 h-12 bg-vibrant-purple/40 blur-xl rounded-full" />

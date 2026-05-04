@@ -3,6 +3,7 @@ import logo from "./images/OIP (1).webp"
 import newsImg from "./images/Beige New Product Mockup Now Available Facebook Post.png";
 import recipeImg from "./images/Beige New Product Mockup Now Available Facebook Post (3).png";
 import majd from "./images/Beige New Product Mockup Now Available Facebook Post (5).png";
+import menoufiaLogo from "./images/menoufia.webp";
 export const PORTFOLIO_DATA = {
   en: {
     name: "Salma Abdelwahed",
@@ -20,8 +21,7 @@ export const PORTFOLIO_DATA = {
         projectGrade: "Excellent (A+)",
         year: "June 2025",
         location: "Shibin el-kom, Egypt",
-        logo: "/src/images/menoufia.webp"
-      },
+logo: menoufiaLogo      },
     ],
     certificates: [
       {
