@@ -4,6 +4,9 @@ import newsImg from "./images/Beige New Product Mockup Now Available Facebook Po
 import recipeImg from "./images/Beige New Product Mockup Now Available Facebook Post (3).png";
 import majd from "./images/Beige New Product Mockup Now Available Facebook Post (5).png";
 import menoufiaLogo from "./images/menoufia.webp";
+import sefLogo from "./images/sef.webp";
+import digiliansLogo from "./images/digilians.webp";
+import depiLogo from "./images/DEPI logo.png";
 export const PORTFOLIO_DATA = {
   en: {
     name: "Salma Abdelwahed",
@@ -30,7 +33,7 @@ logo: menoufiaLogo      },
         date: "Jan '24",
         description: "Comprehensive training in front-end web development technologies and best practices.",
         link: "https://drive.google.com/file/d/17YJ5Y-eVilUDTIKPo4qliNH_GVjmhwtA/view?usp=sharing",
-        logo: "/src/images/sef.webp"
+        logo: sefLogo
       },
     ],
     experience: [
@@ -42,7 +45,7 @@ logo: menoufiaLogo      },
         duration: "",
         location: "Cairo, Egypt",
         workType: "On-site",
-        logo: "/src/images/digilians.webp",
+        logo: digiliansLogo,
         stack: ["MongoDB", "Express.js", "React.js", "Node.js", "TypeScript", "Redux Toolkit", "Git", "GitHub", "Docker"],
         situation: "needed to build scalable full-stack applications while maintaining clean collaborative workflows and consistent environments across a team of 5 developers",
         actions: [
@@ -65,7 +68,7 @@ logo: menoufiaLogo      },
         duration: "6 mos",
         location: "Cairo, Egypt",
         workType: "Hybrid",
-        logo: "/src/images/DEPI logo.png",
+        logo: depiLogo,
         stack: ["HTML5", "CSS3", "JavaScript", "Angular"],
         situation: "needed to build responsive and interactive web interfaces that perform well across all devices with fast load times",
         actions: [
