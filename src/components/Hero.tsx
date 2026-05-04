@@ -4,7 +4,7 @@ import { ArrowDownToLine, Github, Linkedin, Mail } from "lucide-react";
 import { PORTFOLIO_DATA } from "@/src/constants";
 import { usePortfolio } from "@/src/context/PortfolioContext";
 import { cn } from "@/lib/utils";
-import heroImg from "./images/hero.webp";
+import heroImg from "../images/hero.webp";
 export default function Hero() {
   const { language } = usePortfolio();
   const t = PORTFOLIO_DATA[language];
