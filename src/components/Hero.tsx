@@ -59,8 +59,8 @@ export default function Hero() {
                 {language === "en" ? "Let's Talk" : "لنبدأ التحدث"}
               </Button>
               <a 
-                href="/Salma_Abdelwahed_CV.pdf" 
-                download="Salma_Abdelwahed_CV.pdf"
+             href="/assets/salma-abdelwahed.pdf" 
+            download="salma-abdelwahed.pdf"
                 className={cn(
                   buttonVariants({ variant: "secondary", size: "lg" }),
                   "rounded-full px-8 font-bold flex items-center gap-2"

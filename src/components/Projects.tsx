@@ -132,10 +132,12 @@ export default function Projects() {
 
                     <div className="flex items-center gap-4 mt-auto">
                       <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="flex-1">
-                        <Button variant="outline" className="w-full rounded-xl gap-2 h-11 border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-base font-bold tracking-tight">
-                          <Github className="h-4 w-4" />
-                          Code
-                        </Button>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="w-full">
+  <Button variant="outline" className="w-full rounded-xl gap-2 h-11 border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-base font-bold tracking-tight">
+    <Github className="h-4 w-4" />
+    Code
+  </Button>
+</a>
                       </motion.div>
                      <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="flex-1">
   <a href={project.link} target="_blank" rel="noopener noreferrer">

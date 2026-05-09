@@ -186,11 +186,14 @@ logo: menoufiaLogo      },
           { name: "Vercel", icon: "Rocket" },
           { name: "Netlify", icon: "Globe" },
         ],
-        "soft-skills": [
-          { name: "Git & GitHub", icon: "Github", description: "Version control & collaboration" },
-          { name: "Docker", icon: "Server", description: "Containerization basics" },
-          { name: "VS Code & Figma", icon: "Layout", description: "Development & UI handoff" },
-        ]
+       "soft-skills": [
+  { name: "Communication", icon: "MessageCircle", description: "Clear & effective communication" },
+  { name: "Problem Solving", icon: "Lightbulb", description: "Analytical thinking & creativity" },
+  { name: "Teamwork", icon: "Users", description: "Collaboration & team spirit" },
+  { name: "Continuous Learning", icon: "BookOpen", description: "Always growing & improving" },
+  { name: "Adaptability", icon: "RefreshCw", description: "Quick to learn & adjust" },
+  { name: "Attention to Detail", icon: "Search", description: "Precision in every task" },
+]
       }
     },
     projects: [
@@ -200,8 +203,9 @@ logo: menoufiaLogo      },
         action: "Developed a web platform that combines social networking and e-commerce using React.js and Vite, styled with HTML5 and CSS3. Includes an intelligent recommendation system.",
         result: "Grade: A+. Successfully created a bridge between traditional crafts and modern markets, achieving high user engagement.",
         tech: ["React.js", "Vite", "Tailwind CSS", "HTML5", "CSS3"],
-        link: "#",
-        videoUrl: heritageVideo // مسار الفيديو الخاص بكِ
+        link: "https://drive.google.com/file/d/1CIQlEtMupaJi7mwBl-0GHwQoKa6VWX1L/view?usp=sharing",
+        videoUrl: heritageVideo ,
+        github:"https://github.com/Reem-Amr7/tourathona.git"
       },
       {
         title: "Recipe Sharing Website",
@@ -219,7 +223,9 @@ logo: menoufiaLogo      },
         result: "Provides accurate, real-time weather information with a dynamic and responsive UI.",
         tech: ["JavaScript", "Weather API", "HTML5", "CSS3"],
         link: "https://majd-nine.vercel.app/",
-        image:majd
+        image:majd,
+        github:"https://github.com/Salma1542/Majd.git"
+
       },
       {
         title: "Live News & Sports Hub",
@@ -228,7 +234,9 @@ logo: menoufiaLogo      },
   result: "Successfully built a low-latency hub that provides users with instantaneous updates on global events and sports, featuring a responsive design for all devices.",
   tech: ["JavaScript (ES6+)", "REST API", "HTML5", "CSS3", "WeatherAPI"],
   link:'https://news-website-steel-nu.vercel.app/',
-        image:newsImg
+        image:newsImg,
+      github:"https://github.com/Salma1542/news-website.git"
+
 
       },
      
@@ -360,10 +368,13 @@ logo: menoufiaLogo      },
           { name: "Netlify", icon: "Globe" },
         ],
         "soft-skills": [
-          { name: "Git & GitHub", icon: "Github", description: "إصدارات الكود والتعاون" },
-          { name: "Docker", icon: "Server", description: "أساسيات الحاويات" },
-          { name: "VS Code & Figma", icon: "Layout", description: "التطوير وتسليم التصميم" },
-        ]
+  { name: "التواصل", icon: "MessageCircle", description: "تواصل واضح وفعّال" },
+  { name: "حل المشكلات", icon: "Lightbulb", description: "تفكير تحليلي وإبداعي" },
+  { name: "إدارة الوقت", icon: "Clock", description: "الالتزام بالمواعيد وترتيب الأولويات" },
+  { name: "التكيّف", icon: "RefreshCw", description: "سريعة في التعلم والتأقلم" },
+  { name: "الاهتمام بالتفاصيل", icon: "Search", description: "الدقة في كل مهمة" },
+  { name: "التعلم المستمر", icon: "BookOpen", description: "دائماً أنمو وأتطور" },
+]
       }
     },
     projects: [
