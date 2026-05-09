@@ -6,8 +6,16 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter }
 import { Badge } from "@/components/ui/badge";
 import { PORTFOLIO_DATA } from "@/src/constants";
 import { usePortfolio } from "@/src/context/PortfolioContext";
+import { useNavigate } from "react-router-dom";
 
 export default function Pricing() {
+    const navigate = useNavigate();
+  const handleContactClick = () => {
+    navigate('/#contact');
+    setTimeout(() => {
+      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  };
   const { language, setLanguage, theme, toggleTheme } = usePortfolio();
   const t = PORTFOLIO_DATA[language].pricing;
 
@@ -115,12 +123,13 @@ export default function Pricing() {
                   </ul>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
-                  <Button 
-                    className={`w-full h-11 font-bold ${plan.popular ? 'bg-vibrant-gradient hover:opacity-90 border-none' : ''}`}
-                    variant={plan.popular ? "default" : "outline"}
-                  >
-                    {plan.button}
-                  </Button>
+                 <Button 
+  className={`w-full h-11 font-bold ${plan.popular ? 'bg-vibrant-gradient hover:opacity-90 border-none' : ''}`}
+  variant={plan.popular ? "default" : "outline"}
+  onClick={handleContactClick}
+>
+  {plan.button}
+</Button>
                 </CardFooter>
               </Card>
             </motion.div>
